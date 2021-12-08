@@ -1,7 +1,7 @@
 require "resolv"
 
 module Rack
-  module Attack
+  class Attack
     module Admin
 
       class BlockedIpAddress < ActiveRecord::Base
