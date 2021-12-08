@@ -48,8 +48,6 @@ module Rack
         def blocked_cache_key(ip_address)
           "block_ip #{ip_address}"
         end
-
-        end
       end
     end
   end
