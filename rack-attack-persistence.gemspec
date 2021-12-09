@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rack/attack/admin/version"
+require "rack/attack/persistence/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rack-attack-admin"
-  spec.version       = Rack::Attack::Admin::VERSION
+  spec.name          = "rack-attack-persistence"
+  spec.version       = Rack::Attack::Persistence::VERSION
   spec.authors       = ["Murray Summers"]
   spec.email         = ["murray.sum@gmail.com"]
 
   spec.summary       = "Manage blocked IP addresses"
   spec.description   = "longer description"
-  spec.homepage      = "https://github.com/murraysum/rack-attack-admin"
+  spec.homepage      = "https://github.com/murraysum/rack-attack-persistence"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/murraysum/rack-attack-admin"
-    spec.metadata["changelog_uri"] = "https://github.com/murraysum/rack-attack-admin"
+    spec.metadata["source_code_uri"] = "https://github.com/murraysum/rack-attack-persistence"
+    spec.metadata["changelog_uri"] = "https://github.com/murraysum/rack-attack-persistence"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

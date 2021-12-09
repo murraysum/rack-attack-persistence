@@ -1,8 +1,8 @@
 require "test_helper"
 
-class Rack::Attack::AdminTest < Minitest::Test
+class Rack::Attack::PersistenceTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Rack::Attack::Admin::VERSION
+    refute_nil ::Rack::Attack::Persistence::VERSION
   end
 
   def test_it_does_something_useful
